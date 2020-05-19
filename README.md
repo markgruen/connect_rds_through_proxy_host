@@ -1,7 +1,7 @@
 # connect_rds_through_proxy_host
 connect to an RDS instance through a proxyhost with no passwords in clear text
 
-
+```text
 ./secrets_config_editor.py --help
 Secret Config Editor
 
@@ -29,3 +29,4 @@ Notes:
 Example:
 
    ./secrets_config_editor.py set --section=uweee_dev --config=~/config.ini --key=~/.keys/db.key
+```
